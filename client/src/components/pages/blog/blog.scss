@@ -1,0 +1,19 @@
+.blog-banner {
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  object-fit: cover;
+  color: transparent;
+  position: relative;
+  top: -67px;
+
+  .banner-img {
+    background: url("../../../assets/images/blog_hero.webp");
+    background-repeat: no-repeat;
+    min-height: 740px;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    opacity: 0.5;
+  }
+}
